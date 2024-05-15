@@ -1,0 +1,10 @@
+;; Copyright (c) 2024 John Newton
+;; SPDX-License-Identifier: Apache-2.0
+
+(in-package #:cl-user)
+
+(defpackage #:foo.lisp.resource/tests
+  (:use #:cl #:rove))
+
+(defpackage #:foo.lisp.resource/tests/fast
+  (:use #:cl #:rove))
